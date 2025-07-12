@@ -3,7 +3,8 @@
 
 </script>
 
-<div class="container_link">
+<div class="container_link" data-aos="fade-up" 
+     data-aos-duration="1000" data-aos-once="true">
     <div class="logo_container">
         <i class="{step.icon}"></i>
     </div>
@@ -35,11 +36,11 @@
         color: white; /* Color de texto general */
         text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
         gap: 15px; /* Espacio entre elementos */
-        transition: all 0.3s ease;
+        transition: all 0.1s;
     }
     .container_link:hover{
         border: 1px solid white;
-        transform: scale(1.01) translateY(-5px);
+        transform: translateY(-3px);
     }
 
     h3{

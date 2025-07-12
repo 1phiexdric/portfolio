@@ -25,6 +25,7 @@
   class="py-20 pt-10
   lg:pt-16 lg:py-32 flex flex-col items-center gap-16 sm:gap-20 md:gap-24 relative
   px-4 sm:px-6 md:px-8 max-w-7xl mx-auto"
+  
 >
   <div
     class="flex flex-col gap-4 text-center relative w-full
@@ -44,9 +45,10 @@
   <p class="mx-auto poppins font-semibold text-lg sm:textxl md:text-2xl">
     Soy . . .
   </p>
-  <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
+  <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]" >
     {#each benefits as benefit, index}
-      <div class="flex gap-6 sm:gap-8">
+      <div class="flex gap-6 sm:gap-8" data-aos="zoom-in" data-aos-duration="1000"
+  data-aos-once="true">
         <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500
         font-semibold">
     0{index+1}</p>

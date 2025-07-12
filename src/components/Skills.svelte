@@ -1,3 +1,17 @@
+    <script>
+        let skills = [
+            {skillsTitle: "Frontend", skillsList:[
+                {icon: "devicon-html5-plain", name: "HTML5"},
+                {icon: "devicon-css3-plain", name: "CSS3"},
+                {icon: "devicon-javascript-plain", name: "JavaScript"},
+                {icon: "devicon-svelte-plain", name: "Svelte"},
+                {icon: "devicon-tailwindcss-plain", name: "Tailwind"}
+            ]}, {skillsTitle: "Otras", skillsList:[
+                {icon: "devicon-nodejs-plain", name: "Node.js"},
+                {icon: "devicon-mongodb-plain", name: "MongoDB"},
+            ]}
+        ]
+    </script>
     <section class="skills-section">
         <h3
         class="font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight"
@@ -5,23 +19,18 @@
         Mis <span class="poppins text-violet-400">Skills</span>
     </h3>
     <div class="skills-container">
-        <div class="skills-category">
-            <h3 class="skills-title">Frontend</h3>
-            <div class="skills-list">
-                    <div class="skill-item"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
-                    <div class="skill-item"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
-                    <div class="skill-item"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
-                    <div class="skill-item"><i class="devicon-svelte-plain"></i>Svelte</div>
-                    <div class="skill-item"><i class="devicon-tailwindcss-plain"></i><span>Tailwind</span></div>
-                </div>
-            </div>
-            <div class="skills-category">
-                <h3 class="skills-title">Otros</h3>
+        {#each skills as item }
+            <div class="skills-category" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000" data-aos-once="true">
+                <h3 class="skills-title">{item.skillsTitle}</h3>
                 <div class="skills-list">
-                    <div class="skill-item"><i class="devicon-nodejs-plain"></i><span>Node.js</span></div>
-                    <div class="skill-item"><i class="devicon-mongodb-plain"></i><span>MongoDB</span></div>
+                    {#each item.skillsList as skill }
+                        <div class="skill-item"><i class="{skill.icon}"></i>{skill.name}</div>
+                    {/each}
                 </div>
-            </div>
+            </div>            
+        {/each}
             <!--
                 <div class="skills-category">
                     <h3>Backend</h3>

@@ -85,6 +85,7 @@
   }
   ul {
     font-size: 1.5rem;
+    
   }
   .social-links {
     font-size: 1.7rem;
@@ -107,6 +108,7 @@
     padding: 1rem 1rem 0 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
   .mobile_links li {
@@ -117,6 +119,12 @@
     border-bottom: 1px solid black;
     font-size: 1.4rem;
     padding: 5px 0;
+width: 100%;
+  }
+
+  .mobile_links li a {
+    width: 100%;
+    display: block;
   }
 
   @media (width < 800px) {
