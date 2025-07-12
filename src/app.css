@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+:root{
+    --violet-color: #632fdd
+}
+html, *{
+    scroll-behavior: smooth;
+}
+
+.poppins{
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+body{
+    font-family: "Montserrat";
+    color: white;
+}
+
+.Specialbtn{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    width: 20%;
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in;
+}
+
+.Specialbtn:hover{
+    background-color: var(--violet-color);
+    color: white;
+    transform: translateY(-2px); 
+}
+
+.separator{
+    width: 95%;
+    height: 3px;
+    background-color: var(--violet-color);
+    margin: 40px auto;
+  }
+
+@media (width < 800px){
+    .Specialbtn{
+        margin: auto;
+        width: 50%;
+    }
+}
