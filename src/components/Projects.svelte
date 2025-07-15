@@ -6,7 +6,16 @@
         href: "https://barberhero.netlify.app/",
         linkGithub: "https://github.com/1phiexdric/barberHero.git",
         description: `BarberHero es una moderna landing page diseñada para una barbería, destacando sus servicios y estilo. Fue construida utilizando <strong class="text-violet-500">JavaScript, Sveltet, HTML, y CSS</strong/>`
-      },{name: "Ultimate Todos", icon: "fa-solid fa-list-check",href: "",linkGithub: "",
+      },{name: "Pokédex", icon: "fa-solid fa-diagram-project", href: "https://pokephiexd.netlify.app/", linkGithub: "https://github.com/1phiexdric/pokedex.git",
+    description: `
+            Una <strong class="text-violet-500">Pokédex</strong>
+            para explorar información detallada sobre tus Pokémon favoritos.
+            Desarrollada con <strong class="text-violet-500">JavaScript</strong>,
+            <strong class="text-violet-500">HTML</strong> y
+            <strong class="text-violet-500">CSS</strong>.
+        
+    `
+  },{name: "Ultimate Todos", icon: "fa-solid fa-list-check",href: "",linkGithub: "",
       description: `
             "Ultimate Todos" es una aplicación de gestión de tareas robusta y moderna, diseñada para optimizar
             tu productividad diaria. Permite a los usuarios organizar sus pendientes, establecer prioridades y
@@ -14,16 +23,6 @@
 
       `
 
-  },{name: "Pokédex", icon: "fa-solid fa-diagram-project", href: "", linkGithub: "",
-    description: `
-            Una <strong class="text-violet-500">Pokédex interactiva</strong>
-            para explorar información detallada sobre tus Pokémon favoritos.
-            Desarrollada con <strong class="text-violet-500">JavaScript</strong>,
-            <strong class="text-violet-500">Svelte</strong>,
-            <strong class="text-violet-500">HTML</strong> y
-            <strong class="text-violet-500">CSS</strong>.
-        
-    `
   }]
 </script>
 
