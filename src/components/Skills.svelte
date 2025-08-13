@@ -8,7 +8,9 @@
                 {icon: "devicon-tailwindcss-plain", name: "Tailwind"}
             ]}, {skillsTitle: "Otras", skillsList:[
                 {icon: "devicon-nodejs-plain", name: "Node.js"},
+                {icon: "devicon-express-original", name: "Express.js"},
                 {icon: "devicon-mongodb-plain", name: "MongoDB"},
+                {icon: "devicon-git-plain", name: "Git"}
             ]}
         ]
     </script>
