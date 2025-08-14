@@ -1,3 +1,4 @@
+
 <footer
   class="py-20 sm:py-26 bg-black border-t border-solid border-violet-950
 flex flex-col gap-4 sm:gap-8 justify-center items-center"
@@ -24,27 +25,39 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center"
     <p>
       <i class="fa-brands fa-square-whatsapp"></i> <b class="pr-2">whatsapp</b>
       <a
-        href="https://wa.me/584121379204"
-        target="_blank"
-        class="text-violet-500"
-        >+584121379204
-        <sup class="text-xs scale-75 pl-0.5">
-          <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
-          ></i>
-        </sup></a
+      href="https://wa.me/584121379204"
+      target="_blank"
+      class="text-violet-500"
+      >+584121379204
+      <sup class="text-xs scale-75 pl-0.5">
+        <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
+        ></i>
+      </sup></a
       >
     </p>
     <p>
       <i class="fa-brands fa-github-square"></i> <b class="pr-2">GitHub</b>
       <a
-        href="https://github.com/1phiexdric"
-        target="_blank"
+      href="https://github.com/1phiexdric"
+      target="_blank"
+      class="text-violet-500"
+      >1phiexdric
+      <sup class="text-xs scale-75 pl-0.5">
+        <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
+        ></i>
+      </sup></a
+      >
+    </p>
+    <p>
+      <i class="fa-solid fa-envelope"></i> <b class="pr-2">CV</b>
+      <a
+        href="/assets/Friedrich_Ruiz_CV.pdf"
+        download="Friedrich_Ruiz_CV.pdf"
         class="text-violet-500"
-        >1phiexdric
-        <sup class="text-xs scale-75 pl-0.5">
+        >Descargar CV <sup class="text-xs scale-75 pl-0.5">
           <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
-          ></i>
-        </sup></a
+          ></i></sup
+        ></a
       >
     </p>
     <p>
