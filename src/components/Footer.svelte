@@ -9,7 +9,7 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center"
   >
     Contactame &darr;
   </p>
-  <div class="flex flex-col items-center justify-center">
+  <address class="flex flex-col items-center justify-center not-italic">
     <p>
       <i class="fa-solid fa-envelope"></i> <b class="pr-2">Email</b>
       <a
@@ -73,7 +73,7 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center"
         </sup></a
       >
     </p>
-  </div>
+  </address>
 
   <p class="text-center text-slate-400 font-medium">
     &copy; {new Date().getFullYear()} Friedrich Ruiz. Todos los derechos reservados.

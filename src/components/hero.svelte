@@ -23,13 +23,12 @@
           transition:typewriter={{speed: 0.3}}
         >
               Soy <span class="poppins text-violet-400">Friedrich Ruiz</span><br>
-    Frontend <span class="poppins text-violet-400">Developer</span>
+    Full-Stack <span class="poppins text-violet-400">Developer</span>
         </h2>
         {/if}
-      <p class="text-base sm:text-lg md:text-xl text">
-        Hago cosas geniales usando <!--Mis <span class="text-violet-400"> tecnologias favoritas</span> incluyen --><span style="color: #f7df1e;" class="">JavaScript</span>,
-        <span style="color: #ff3e00;">SvelteKit</span>, <span style="color: #06b6d4;">TailwindCSS</span>, <span style="color: #68a063;">Node.js</span> y 
-        <span style="color: #4db33d;">MongoDB</span>
+      <p class="text-base sm:text-lg md:text-xl text font-semibold">
+        Soy un Desarrollador Full-Stack con experiencia en el ecosistema de <span style="color: #f7df1e;" class="">JavaScript</span>, usando <span style="color: #ff3e00;">SvelteKit</span> para        
+     el frontend y <span style="color: #68a063;">Node.js</span> con <span style="color: #787878;">Express</span> para el backend.
       </p>
         <a href="https://wa.me/+584121379204" target="_blank" class="Specialbtn poppins">
           Contactame &rArr;

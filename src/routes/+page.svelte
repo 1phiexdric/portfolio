@@ -6,17 +6,16 @@
 </script>
 
 <Hero/>
-<div class="separator" id="projects"></div>
+<div class="separator"></div>
 <Projects/>
-<div class="separator" id="about"></div>
+<div class="separator"></div>
 <About/>
-<div class="separator" id="about"></div>
 <style>
-  #projects{
+  .separator{
     margin-bottom: 90px;
   }
   @media(width < 640px) {
-    #projects{
+    .separator{
       margin-bottom: 50px;
     }
   }

@@ -21,7 +21,7 @@
 </script>
 
 <section
-  
+  id="about"
   class="py-20 pt-10
   lg:pt-16 lg:py-32 flex flex-col items-center gap-16 sm:gap-20 md:gap-24 relative
   px-4 sm:px-6 md:px-8 max-w-7xl mx-auto"

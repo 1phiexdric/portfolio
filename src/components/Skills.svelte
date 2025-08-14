@@ -5,7 +5,6 @@
                 {icon: "devicon-css3-plain", name: "CSS3"},
                 {icon: "devicon-javascript-plain", name: "JavaScript"},
                 {icon: "devicon-svelte-plain", name: "Svelte"},
-                {icon: "devicon-tailwindcss-plain", name: "Tailwind"}
             ]}, {skillsTitle: "Otras", skillsList:[
                 {icon: "devicon-nodejs-plain", name: "Node.js"},
                 {icon: "devicon-express-original", name: "Express.js"},

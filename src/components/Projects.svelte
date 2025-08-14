@@ -26,9 +26,9 @@
   }]
 </script>
 
-<div class="main-container ">
+<section class="main-container " id="projects" aria-labelledby="projects-title">
     <div id="title-container">
-        <h2 class="poppins">Proyectos</h2>
+        <h2 class="poppins" id="projects-title">Proyectos</h2>
     </div>
     <div class="projects_container grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8">
         {#each steps as step}
@@ -41,7 +41,7 @@
         Mostrar Mas
     </button>
     {/if}
-</div>
+</section>
 <style>
     .main-container{
         display: grid;
