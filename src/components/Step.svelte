@@ -3,7 +3,7 @@
 
 </script>
 
-<div class="container_link" data-aos="fade-up" 
+<article class="container_link" data-aos="fade-up" 
      data-aos-duration="1000" data-aos-once="true">
     <div class="logo_container">
         <i class="{step.icon}"></i>
@@ -19,7 +19,7 @@
             <p class="ver-text">ver &rarr;</p>
         </a>
     </div>
-</div>
+</article>
 
 <style>
     .abajo{

@@ -11,14 +11,18 @@
 
 </script>
 <svelte:window bind:scrollY={y} bind:outerHeight />
-<NavBar/>
+<header>
+  <NavBar/>
+</header>
 <BtnToTop/>
 {#if y > outerHeight - 100}
 <div transition:fade={{ duration: 300 }}>
-
-  <NavBar position="fixed"/>
+  <header>
+    <NavBar position="fixed"/>
+  </header>
 </div>
-
 {/if}
-{@render children()}
+<main>
+  {@render children()}
+</main>
 <Footer/>
