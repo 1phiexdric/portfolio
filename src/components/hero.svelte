@@ -26,7 +26,7 @@
         <span class="poppins text-violet-400">Desarrollador</span> Web
       </h2>
     {/if}
-    <p class="text-base sm:text-lg md:text-xl text">
+    <p class="text-base sm:text-lg md:text-xl text font-semibold">
       Hago cosas geniales usando <!--Mis <span class="text-violet-400"> tecnologias favoritas</span> incluyen --><span
         style="color: #f7df1e;"
         class="">JavaScript</span

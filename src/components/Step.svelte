@@ -36,7 +36,7 @@
         color: white; /* Color de texto general */
         text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
         gap: 15px; /* Espacio entre elementos */
-        transition: all 0.1s;
+        transition: all 3ms;
     }
     .container_link:hover{
         border: 1px solid white;

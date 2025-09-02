@@ -15,14 +15,13 @@
             <strong class="text-violet-500">CSS</strong>.
         
     `
-  },{name: "Ultimate Todos", icon: "fa-solid fa-list-check",href: "",linkGithub: "",
+  },{name: "Cyberworm", icon: "fa-solid fa-gamepad",href: "https://cyberworm.netlify.app/",linkGithub: "https://github.com/1phiexdric/Juego-snake.git",
       description: `
-            "Ultimate Todos" es una aplicación de gestión de tareas robusta y moderna, diseñada para optimizar
-            tu productividad diaria. Permite a los usuarios organizar sus pendientes, establecer prioridades y
-            seguir el progreso de sus objetivos de manera intuitiva.
+            Clásico juego de la snake hecho con <strong class="text-violet-500">JavaScript</strong>,
+            <strong class="text-violet-500">HTML</strong> y
+            <strong class="text-violet-500">CSS</strong>.
 
       `
-
   }]
 </script>
 
