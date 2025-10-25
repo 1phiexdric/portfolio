@@ -15,13 +15,13 @@
             <strong class="text-violet-500">CSS</strong>.
         
     `
-  },{name: "Cyberworm", icon: "fa-solid fa-gamepad",href: "https://cyberworm.netlify.app/",linkGithub: "https://github.com/1phiexdric/Juego-snake.git",
-      description: `
-            Clásico juego de la snake hecho con <strong class="text-violet-500">JavaScript</strong>,
-            <strong class="text-violet-500">HTML</strong> y
-            <strong class="text-violet-500">CSS</strong>.
-
-      `
+  },{name: "Anime Beats",
+    icon: "fa-solid fa-music",href: "https://animebeats.netlify.app/",linkGithub: "https://github.com/1phiexdric/AnimeBeats",
+    description: `
+        Plataforma de *streaming* de OP/ED curados.
+        Stack: <strong class="text-violet-500">SvelteKit</strong>, <strong class="text-violet-500">GraphQL (AniList)</strong> y <strong class="text-violet-500">MongoDB</strong>.
+        Destaca por la curación de nicho (<strong class="text-green-500">Donghua/Aeni</strong>) y la solución de problemas de <strong class="text-violet-500">copyright/embedding</strong>.
+    `
   }]
 </script>
 
