@@ -4,7 +4,7 @@
   let { position = "absolute" } = $props();
   let links = [{
     name: "Inicio",
-    href:""
+    href:"/"
   },{
     name:"Proyectos",
     href: "#projects"
@@ -14,6 +14,9 @@
   },{
     name: "Contacto",
     href: "#contact"
+  }, {
+    name: "Blog",
+    href: "/blog"
   }]
   function closeMenu() {
     showMenu = !showMenu;
@@ -36,26 +39,18 @@
     </a>
   </div>
   <ul id="link_desktop" class="flex items-center gap-x-10 text-lg uppercase">
+    {#each links as link}
     <li>
-      <a href="#introPage" class="transition-colors hover:text-violet-400"
-        >Inicio</a
+      <a
+        href={link.href}
+        class="transition-colors hover:text-violet-400"
       >
+        {link.name}
+      </a>
+      
     </li>
-    <li>
-      <a href="#projects" class="transition-colors hover:text-violet-400"
-      >Proyectos</a
-      >
-    </li>
-    <li>
-      <a href="#about" class="transition-colors hover:text-violet-400"
-        >Sobre mi</a
-      >
-    </li>
-    <li>
-      <a href="#contact" class="transition-colors hover:text-violet-400"
-        >Contacto</a
-      >
-    </li>
+      
+    {/each}
   </ul>
   <div class="btn-div">
     <button onclick={closeMenu} aria-label="Abrir menú lateral">

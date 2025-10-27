@@ -2,9 +2,10 @@
   import About from "../components/About.svelte";
   import Hero from "../components/hero.svelte";
   import Projects from "../components/Projects.svelte";
+  import { onMount } from "svelte";
 
+  
 </script>
-
 <Hero/>
 <div class="separator"></div>
 <Projects/>
