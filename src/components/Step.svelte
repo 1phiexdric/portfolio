@@ -36,7 +36,7 @@
         color: white; /* Color de texto general */
         text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
         gap: 15px; /* Espacio entre elementos */
-        transition: all 3ms;
+        transition: all 300ms;
     }
     .container_link:hover{
         border: 1px solid white;
@@ -82,6 +82,7 @@
         position: relative;
         bottom: 0;
         overflow: hidden;
+        text-decoration: none;
     }
 
     .ver-button .ver-text {

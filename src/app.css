@@ -1,9 +1,11 @@
-@import 'tailwindcss';
+
 
 :root{
     --violet-color: #632fdd
 }
 html, *{
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
 }
 

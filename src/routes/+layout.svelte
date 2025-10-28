@@ -6,12 +6,13 @@
 	import { fade } from 'svelte/transition';
   import { onMount } from 'svelte';
   import AOS from 'aos'
+  import 'aos/dist/aos.css';
 	let { children } = $props();
 
   let y = $state(0);
   let outerHeight = $state(0)
   onMount(()=>{
-    AOS.init();
+    AOS.init()
   })
 </script>
 <svelte:window bind:scrollY={y} bind:outerHeight />

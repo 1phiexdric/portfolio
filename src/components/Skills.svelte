@@ -1,59 +1,46 @@
-    <script>
-        let skills = [
-            {skillsTitle: "Frontend", skillsList:[
-                {icon: "devicon-html5-plain", name: "HTML5"},
-                {icon: "devicon-css3-plain", name: "CSS3"},
-                {icon: "devicon-javascript-plain", name: "JavaScript"},
-                {icon: "devicon-svelte-plain", name: "Svelte"},
-            ]}, {skillsTitle: "Otras", skillsList:[
-                {icon: "devicon-nodejs-plain", name: "Node.js"},
-                {icon: "devicon-express-original", name: "Express.js"},
-                {icon: "devicon-mongodb-plain", name: "MongoDB"},
-                {icon: "devicon-git-plain", name: "Git"}
-            ]}
-        ]
-    </script>
-    <section class="skills-section">
-        <h3
-        class="font-bold text-4xl sm:text-5xl md:text-6xl text-white leading-tight"
-        >
-        Mis <span class="poppins text-violet-400">Skills</span>
+<script>
+    let skills = [
+        {skillsTitle: "Frontend", skillsList:[
+            {icon: "devicon-html5-plain", name: "HTML5"},
+            {icon: "devicon-css3-plain", name: "CSS3"},
+            {icon: "devicon-javascript-plain", name: "JavaScript"},
+            {icon: "devicon-svelte-plain", name: "Svelte"},
+        ]}, {skillsTitle: "Otras", skillsList:[
+            {icon: "devicon-nodejs-plain", name: "Node.js"},
+            {icon: "devicon-express-original", name: "Express.js"},
+            {icon: "devicon-mongodb-plain", name: "MongoDB"},
+            {icon: "devicon-git-plain", name: "Git"}
+        ]}
+    ]
+</script>
+
+<section class="skills-section">
+    <h3 class="section-title">
+      Mis <span class="poppins highlight">Skills</span>
     </h3>
+
     <div class="skills-container">
         {#each skills as item }
             <div class="skills-category" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000" data-aos-once="true">
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000" data-aos-once="true">
                 <h3 class="skills-title">{item.skillsTitle}</h3>
                 <div class="skills-list">
                     {#each item.skillsList as skill }
                         <div class="skill-item"><i class="{skill.icon}"></i>{skill.name}</div>
                     {/each}
                 </div>
-            </div>            
+            </div>          
         {/each}
-            <!--
-                <div class="skills-category">
-                    <h3>Backend</h3>
-                    <div class="skills-list">
-                    </div>
-                </div>
-            <div class="skills-category">
-                <h3>Tools</h3>
-                <div class="skills-list">
-                    <div class="skill-item"><i class="devicon-git-plain"></i><span>Git</span></div>
-                    <div class="skill-item"><i class="devicon-github-original"></i><span>GitHub</span></div>
-                    <div class="skill-item"><i class="devicon-docker-plain"></i><span>Docker</span></div>
-                    <div class="skill-item"><i class="devicon-webpack-plain"></i><span>Webpack</span></div>
-                    <div class="skill-item"><i class="devicon-babel-plain"></i><span>Babel</span></div>
-                    <div class="skill-item"><i class="devicon-figma-plain"></i><span>Figma</span></div>
-                    <div class="skill-item"><i class="devicon-vscode-plain"></i><span>VS Code</span></div>
-                </div>
-            </div>
-            -->
-        </div>
-    </section>
-    <style>
+    </div>
+</section>
+
+<style>
+/* Clase helper para la fuente */
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
 .skills-section {
     display: flex;
     flex-direction: column;
@@ -61,6 +48,20 @@
     text-align: center;
     margin: 75px 0 100px;
 }
+
+/* --- CLASES NUEVAS / TRADUCIDAS --- */
+.section-title {
+    font-weight: 700; /* font-bold */
+    font-size: 2.25rem; /* text-4xl */
+    line-height: 1.25; /* leading-tight */
+    color: #fff; /* text-white */
+    margin: 0 0 2rem 0; /* Margen inferior para separar del contenedor */
+}
+.section-title .highlight {
+    color: rgb(139 92 246); /* text-violet-400 */
+}
+/* --- FIN CLASES NUEVAS --- */
+
 
 .skills-title {
     font-size: 2.5rem;
@@ -110,6 +111,7 @@
     gap: 0.8rem;
     font-size: 1.2rem;
     transition: color 0.3s ease;
+    color: #fff; /* Añadido color base */
 }
 
 .skill-item:hover {
@@ -119,6 +121,9 @@
 .skill-item i {
     font-size: 2rem;
 }
+
+/* --- Media Queries --- */
+
 @media (width < 800px){
     .skills-section{
         margin: 50px 0 60px;
@@ -127,7 +132,19 @@
         gap: 20px;
     }
     .skills-category:hover {
-    transform: translateY(0);
+        transform: translateY(0);
+    }
 }
+
+/* Media query para el título (traducido de sm: y md:) */
+@media (min-width: 640px) {
+    .section-title {
+        font-size: 3rem; /* sm:text-5xl */
+    }
 }
-    </style>
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 3.75rem; /* md:text-6xl */
+    }
+}
+</style>
