@@ -79,7 +79,7 @@
     padding-bottom: 5rem;
     background-color: #000;
     border-top: 1px solid rgb(76 29 149); /* border-violet-950 */
-    
+
     display: flex;
     flex-direction: column;
     gap: 1rem; /* gap-4 */

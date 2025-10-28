@@ -179,6 +179,7 @@
   @media (width < 800px) {
     nav {
       justify-content: space-between;
+      width: 85%;
       padding: 0 20px;
     }
     #link_desktop {

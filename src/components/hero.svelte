@@ -63,7 +63,7 @@
         grid-template-columns: 1fr auto;
         grid-template-rows: 1fr;
         gap: 10px;
-        padding: 8px;
+        padding: 10px;
         margin: 0 75px;
     }
 
@@ -142,9 +142,10 @@
             grid-template-rows: auto auto; /* Ajustado para mejor flujo */
             align-items: center;
             margin: auto;
-            gap: 2rem; /* Añadido un gap */
             justify-items: center;
             overflow: hidden;
+            min-height: auto;
+            margin: 60px 0;
             padding: 40px 20px; /* Padding para que no pegue a los bordes */
         }
         
@@ -175,7 +176,7 @@
           align-self: center; /* Centrar botón en móvil */
         }
         #introPage{
-          gap: 0px;
+          gap: 20px;
         }
     }
 

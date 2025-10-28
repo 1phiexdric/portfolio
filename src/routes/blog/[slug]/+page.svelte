@@ -25,7 +25,7 @@
 </section>
 <style>
     .main-container {
-    width: 90%;
+    width: 70%;
     max-width: 800px;
     margin: 100px auto;
     color: #e0e0e0;
@@ -50,6 +50,9 @@
 
   .tags {
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 10px;
   }
 
   .tag {
@@ -59,7 +62,6 @@
     padding: 5px 15px;
     border-radius: 20px;
     font-size: 0.8rem;
-    margin-right: 10px;
     text-transform: uppercase;
   }
 
@@ -115,5 +117,10 @@
   .markdown-body pre code {
     padding: 0;
     background-color: transparent;
+  }
+  @media (width < 800px){
+.post-content h1{
+  font-size: 2.5rem;
+}
   }
 </style>
