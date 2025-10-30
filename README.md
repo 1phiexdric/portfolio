@@ -1,38 +1,21 @@
-# sv
+# Portfolio de un Programador Ermitaño
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Este es el portfolio de un programador que ha renunciado a las trivialidades de la sociedad moderna, como la ropa y la higiene personal. Desde la cima de una montaña, acompañado únicamente por su fiel canaima y una silla que lleva marcada la silueta del sudor de sus pelo..., se dedica a tejer código y dar forma a la web
 
-## Creating a project
+## Arsenal de exilio
 
-If you're seeing this, you've probably already done this step. Congrats!
+Este sitio está forjado con el poder de **Svelte**, una herramienta tan afilada como su ingenio.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Ecos desde la Cima (Blog)
+Aquí no hay "contenido". Hay ecos.
 
-# create a new project in my-app
-npx sv create my-app
-```
+Son los desvaríos, las epifanías y las herejías de una mente que ha cambiado la conversación humana por el diálogo con la terminal. Son los pensamientos que surgen en el frío de la madrugada, entre el zumbido del procesador y el aullido del viento en la montaña.
 
-## Developing
+Lee bajo tu propio riesgo.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## ¿Te atreves a contactar?
+No busco aprobación. No busco compañía.
 
-```bash
-npm run dev
+Pero si has escalado hasta aquí y tienes algo que decir que sea más interesante que el silencio, puedes enviar una señal.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Advertencia: No respondo a trivialidades.
