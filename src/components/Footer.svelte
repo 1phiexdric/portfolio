@@ -41,7 +41,7 @@
       <i class="fa-brands fa-github-square"></i>
       <b class="contact-label">GitHub</b>
       <a
-        href="https://github.com/1phiexdric"
+        href="https://github.com/fiedri"
         target="_blank"
         class="contact-link"
       >

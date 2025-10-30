@@ -4,9 +4,9 @@
 let steps=[{
     name: "BarberHero", icon: "fa-solid fa-scissors",
     href: "https://barberhero.netlify.app/",
-    linkGithub: "https://github.com/1phiexdric/barberHero.git",
+    linkGithub: "https://github.com/fiedri/barberHero.git",
     description: `BarberHero es una moderna landing page diseñada para una barbería, destacando sus servicios y estilo. Fue construida utilizando <strong style="color: rgb(139 92 246);">JavaScript, Sveltet, HTML, y CSS</strong>`
-  },{name: "Pokédex", icon: "fa-solid fa-diagram-project", href: "https://pokephiexd.netlify.app/", linkGithub: "https://github.com/1phiexdric/pokedex.git",
+  },{name: "Pokédex", icon: "fa-solid fa-diagram-project", href: "https://pokephiexd.netlify.app/", linkGithub: "https://github.com/fiedri/pokedex.git",
   description: `
         Una <strong style="color: rgb(139 92 246);">Pokédex</strong>
         para explorar información detallada sobre tus Pokémon favoritos.
@@ -16,7 +16,7 @@ let steps=[{
     
   `
   },{name: "Anime Beats",
-    icon: "fa-solid fa-music",href: "https://animebeats.netlify.app/",linkGithub: "https://github.com/1phiexdric/AnimeBeats",
+    icon: "fa-solid fa-music",href: "https://animebeats.netlify.app/",linkGithub: "https://github.com/fiedri/AnimeBeats",
   description: `
       Plataforma de *streaming* de OP/ED curados.
       Stack: <strong style="color: rgb(139 92 246);">SvelteKit</strong>, <strong style="color: rgb(139 92 246);">GraphQL (AniList)</strong> y <strong style="color: rgb(139 92 246);">MongoDB</strong>.

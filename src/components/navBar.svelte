@@ -29,7 +29,7 @@
       href="https://www.linkedin.com/in/friedrich-ruiz-097a6832a/"
       target="_blank"><i class="fa-brands fa-linkedin-in"></i></a
     >
-    <a href="https://github.com/1phiexdric" target="_blank"
+    <a href="https://github.com/fiedri" target="_blank"
       ><i class="fa-brands fa-github"></i></a
     >
     <a href="https://x.com/@Friedrichruz" target="_blank"
