@@ -17,7 +17,7 @@
 
  		<hr />
 
- 		<div class="markdown-body prose">
+ 		<div class="markdown-body">
  			{@html data.content}
  		</div>
 
@@ -78,49 +78,79 @@
     color: #c0c0c0;
   }
 
-  .markdown-body h2 {
+  /* Usamos :global() para forzar a Svelte a aplicar estos estilos
+    al contenido que viene de {@html} 
+  */
+
+  :global(.markdown-body h2){
     font-size: 2.2rem;
   }
 
-  .markdown-body h3 {
+  :global(.markdown-body h3) {
     font-size: 1.8rem;
   }
-
-  .markdown-body h4 {
+  :global(.markdown-body h4) {
     font-size: 1.4rem;
   }
-
-  .markdown-body a {
+  :global(.markdown-body a) {
     color: #8a5cf6;
     text-decoration: none;
     transition: color 0.3s ease;
   }
-
-  .markdown-body a:hover {
+  :global(.markdown-body a:hover) {
     color: #a881f7;
   }
-
-  .markdown-body code {
+  :global(.markdown-body code){
     background-color: #2a2a3e;
     padding: 3px 6px;
-    border-radius: 5px;
-    font-family: 'monospace';
+    font-family: "Montserrat";
   }
-
-  .markdown-body pre {
+  :global(.markdown-body pre){
     background-color: #2a2a3e;
-    padding: 20px;
-    border-radius: 8px;
     overflow-x: auto;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  :global(.markdown-body pre code) {
+    padding: 0;
+    background-color: transparent; 
+  }
+  :global(.markdown-body table){
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background-color: #2a2a3e;
+    border: 1px solid #444;
+  }
+  :global(.markdown-body th),
+  :global(.markdown-body td){
+    padding: 12px 18px;
+    text-align: left;
+    border: 1px solid #444;
+  }
+  :global(.markdown-body th){
+    background-color: #1a1a2e;
+    font-weight: 600;
+    color: #e0e0e0;
+    border-bottom: 2px solid #632fdd;
+  }
+  :global(.markdown-body tr:nth-of-type(even)) {
+    background-color: #2f2f42; 
   }
 
-  .markdown-body pre code {
-    padding: 0;
-    background-color: transparent;
+  :global(.markdown-body tr:hover) {
+    background-color: #3a3a52;
   }
+
   @media (width < 800px){
-.post-content h1{
-  font-size: 2.5rem;
+    .post-content h1{
+  font-size: 2.4rem;
 }
+:global(.markdown-body tr:nth-of-type(even)) {
+    background-color: #2f2f42; 
+  }
+
   }
 </style>

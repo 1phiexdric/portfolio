@@ -1,7 +1,7 @@
 ---
 title: 'Notas conceptuales: ¿Qué Son los Genéricos?'
 description: 'Explicacion de que son los genéricos con ejemplos de codigo en typescript'
-date: '2025-11-01'
+date: '11/01/2025'
 tags: ['programacion', 'POO', 'typescript']
 published: true
 ---

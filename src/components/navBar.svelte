@@ -153,7 +153,6 @@
     top: 60px;
     left: 0;
     background: #632fdd;
-    padding: 1rem 1rem 0 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 0; /* Reseteo */
