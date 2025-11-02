@@ -1,3 +1,10 @@
+---
+title: 'Notas conceptuales: ¿Qué Son los Genéricos?'
+description: 'Explicacion de que son los genéricos con ejemplos de codigo en typescript'
+date: '2025-11-01'
+tags: ['programacion', 'POO', 'typescript']
+published: true
+---
 ## ¿Qué Son los Genéricos?
 En programacion muchas veces requerimos crear componentes (como funciones, clases o estructuras de datos) que realicen la **misma lógica** con **diferentes tipos de datos**.
 
