@@ -175,7 +175,7 @@
   }
 
   /* --- Media Query para Móvil --- */
-  @media (width < 800px) {
+  @media (width < 900px) {
     nav {
       justify-content: space-between;
       width: 85%;
