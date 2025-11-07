@@ -173,9 +173,19 @@
     text-decoration: none;
     color: white;
   }
-
+  @media(width < 1000px){
+    #link_desktop{
+      gap: 1rem;
+      /* font-size: 1.3rem; */
+    }
+  }
+  @media(width < 880px){
+    #link_desktop{
+      font-size: 1.4rem;
+    }
+  }
   /* --- Media Query para Móvil --- */
-  @media (width < 900px) {
+  @media (width < 810px) {
     nav {
       justify-content: space-between;
       width: 85%;

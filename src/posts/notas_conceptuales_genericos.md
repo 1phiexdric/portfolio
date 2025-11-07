@@ -12,7 +12,7 @@ Por ejemplo: una funcion que invierte el orden de los elementos en un array. Est
 
 Si se define la funciona con tipos especificos (ej: number):
 
-```tsx
+```typescript
 function invertir(input: Array<number>): Array<number> {
     // ... Lógica de inversión
 }
@@ -42,7 +42,7 @@ Esto permite escribir componentes que pueden:
 
 Al crear un componente, se introduce una "variable de tipo" (el genérico) usando una notación especial (comúnmente los corchetes angulares, `< >`):
 
-```
+```typescript
 // Función GENÉRICA
 function invertir<T>(input: Array<T>): Array<T> {
     // La lógica aquí funciona para cualquier tipo T

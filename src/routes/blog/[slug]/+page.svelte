@@ -1,3 +1,9 @@
+<svelte:head>
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css"
+    >
+</svelte:head>
 <script lang="ts">
     export let data;
 </script>
@@ -33,13 +39,17 @@
     background-color: #1a1a2e;
     padding: 30px;
     border: 1px solid #632fdd;
+    
+    
   }
-
+  
   .post-content h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 10px;
     color: #d1d1d1;
+    /* divide palabras con '-' usando las reglas del español*/
+    hyphens: auto;
   }
 
   .post-info {
@@ -76,6 +86,8 @@
     font-size: 1.1rem;
     line-height: 1.7;
     color: #c0c0c0;
+    /*crea un salto de linea para palabras muy grandes*/
+    overflow-wrap: break-word;
   }
 
   /* Usamos :global() para forzar a Svelte a aplicar estos estilos
@@ -146,7 +158,20 @@
 
   @media (width < 800px){
     .post-content h1{
-  font-size: 2.4rem;
+  font-size: 2.1rem;
+}
+:global(.markdown-body h2){
+    font-size: 1.9rem;
+  }
+
+  :global(.markdown-body h3) {
+    font-size: 1.7rem;
+  }
+  :global(.markdown-body h4) {
+    font-size: 1.4rem;
+  }
+.main-container{
+  width: 75%;
 }
 :global(.markdown-body tr:nth-of-type(even)) {
     background-color: #2f2f42; 

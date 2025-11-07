@@ -12,7 +12,7 @@ Este script que utiliza python hace ese trabajo por mi. Puedes verlo directament
 ## Como funciona el script
 Para construir esta herramienta use varias librerias de Python, algunas que ya vienen incluidas ("biblioteca éxtandar") y una externa para que me notifique cuando el script se esta ejecutando.
 
-### Paso 1: las importacines
+### Paso 1: las importaciones
 ```Python
 import os
 import shutil
