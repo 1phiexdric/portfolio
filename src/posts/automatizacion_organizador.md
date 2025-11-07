@@ -3,7 +3,7 @@ title: 'Automatización: Organizador de carpetas hecho en python'
 description: 'Te enseño cómo crear un organizador de carpetas con python'
 date: '11/06/2025'
 tags: ['programacion', 'python', 'automatización']
-published: false
+published: true
 ---
 
 Seguramente al abrir tu carpeta de descargas o cualquier otra te encuentras con una cantidad incontable de archivos de diferente tipos (imagenes, documentos, instaladores, etc) mezclados y te ha tocado buscar desesperadamente ese pdf que contiene la tarea que te hizo **chatgpt**, tardando un tiempo considerable y pensando *'que flojera'*, o teniendo que ordenar 20 pdf, 10 imagenes y 5 instaladores manualmente. Yo tambien habia pasado por esto, y por eso decedí crear un script que me permitiera seguir vagueando mientras mis archivos estan perfectamente ordenados.
